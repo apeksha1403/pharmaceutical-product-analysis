@@ -8,11 +8,21 @@ This project presents an analysis of Indian pharmaceutical products using R and 
 
 | File Name                            | Description |
 |-------------------------------------|-------------|
-| `indian_pharma_dashboard.xlsx`      | 📊 Excel file containing data, charts, and the final dashboard |
+| `indian_pharma_dashboard.xlsx`      | 📊 Excel file containing charts, and the final dashboard |
 | `pharma_analysis.R`                 | 🔍 R script used for data cleaning and visualization |
 | `pharma_report.Rmd`                 | 📝 R Markdown report combining code, analysis, and commentary |
 | `pharma_report.html`                | 🌐 Rendered HTML report for easy viewing |
-| `indian_pharmaceutical_products_clean.csv` | 📂 Cleaned dataset used for analysis and dashboard |
+
+---
+
+## 📦 Dataset
+
+**Indian Pharmaceutical Products**  
+Comprehensive dataset of Indian pharmaceutical products with prices & compositions.  
+
+🔗 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/sahildutta/indian-pharmaceutical-products)
+
+> **Note:** The dataset is too large to upload directly to this repository. Please download it manually from the above Kaggle link.
 
 ---
 
@@ -54,9 +64,9 @@ This project presents an analysis of Indian pharmaceutical products using R and 
 
 ## ✅ How to Use
 
-1. Open `pharma_report.html` for the visual report.
-2. Open `indian_pharma_dashboard.xlsx` to explore the interactive dashboard.
-3. Review `pharma_analysis.R` and `pharma_report.Rmd` for the complete R-based analysis.
+1. Download the dataset from the [Kaggle link](https://www.kaggle.com/datasets/sahildutta/indian-pharmaceutical-products).
+2. Run `pharma_analysis.R` or open `pharma_report.Rmd` in RStudio for data analysis.
+3. Open `pharma_report.html` to view the R Markdown output.
+4. Open `indian_pharma_dashboard.xlsx` to explore the interactive Excel dashboard.
 
 ---
-
