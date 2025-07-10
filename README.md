@@ -26,8 +26,6 @@ Comprehensive dataset of Indian pharmaceutical products with prices & compositio
 
 ---
 
----
-
 ## How to Reproduce
 
 1. Open `pharma_analysis.R` or `pharma_analysis.Rmd` in RStudio.
