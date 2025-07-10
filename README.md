@@ -53,6 +53,12 @@ Comprehensive dataset of Indian pharmaceutical products with prices & compositio
 
 ---
 
+## Excel Dashboard Preview
+
+![Excel Dashboard](pharma_product_dashboard.png)
+
+---
+
 ## 📊 Dashboard Features
 
 - Interactive KPI cards
