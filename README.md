@@ -20,7 +20,7 @@ This project presents an analysis of Indian pharmaceutical products using R and 
 **Indian Pharmaceutical Products**  
 Comprehensive dataset of Indian pharmaceutical products with prices & compositions.  
 
-🔗 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/sahildutta/indian-pharmaceutical-products)
+🔗 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/rishgeeky/indian-pharmaceutical-products)
 
 > **Note:** The dataset is too large to upload directly to this repository. Please download it manually from the above Kaggle link.
 
