@@ -1,4 +1,4 @@
-# 💊 Indian Pharmaceutical Product Analysis Dashboard
+# 💊 Pharmaceutical_Product_Analysis Dashboard
 
 This project presents an analysis of Indian pharmaceutical products using R and Excel. It includes data cleaning, exploratory data analysis, visualizations, and an interactive Excel dashboard.
 
@@ -23,6 +23,16 @@ Comprehensive dataset of Indian pharmaceutical products with prices & compositio
 🔗 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/rishgeeky/indian-pharmaceutical-products)
 
 > **Note:** The dataset is too large to upload directly to this repository. Please download it manually from the above Kaggle link.
+
+---
+
+---
+
+## How to Reproduce
+
+1. Open `pharma_analysis.R` or `pharma_analysis.Rmd` in RStudio.
+2. Run the script to clean data and generate visualizations.
+3. Review the Excel dashboard in `pharma_dashboard.xlsx`.
 
 ---
 
