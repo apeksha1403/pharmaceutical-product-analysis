@@ -1,86 +1,99 @@
-# 💊 Pharmaceutical_Product_Analysis Dashboard
+# 💊 Pharmaceutical Product Analysis
 
-This project presents an analysis of Indian pharmaceutical products using R and Excel. It includes data cleaning, exploratory data analysis, visualizations, and an interactive Excel dashboard.
+A comprehensive analysis and visualization of Indian Pharmaceutical Products using R and Excel.  
+The project includes data cleaning, visual exploration, KPI insights, and an interactive Excel dashboard.
 
 ---
 
 ## 📁 Project Files
 
-| File Name                            | Description |
-|-------------------------------------|-------------|
-| `indian_pharma_dashboard.xlsx`      | 📊 Excel file containing charts, and the final dashboard |
-| `pharma_analysis.R`                 | 🔍 R script used for data cleaning and visualization |
-| `pharma_report.Rmd`                 | 📝 R Markdown report combining code, analysis, and commentary |
-| `pharma_report.html`                | 🌐 Rendered HTML report for easy viewing |
+| File                          | Description                                                         |
+|------------------------------|----------------------------------------------------------------------|
+| `pharma_analysis.R`          | R script for cleaning and exploring the dataset                     |
+| `pharma_analysis.Rmd`        | R Markdown version of the analysis with embedded visuals            |
+| `pharma_dashboard.xlsx`      | Final Excel dashboard with charts, KPIs, and slicers                |
+| `pharma_product_dashboard.png` | Preview of the Excel dashboard (image format)                      |
+| `pharma_analysis.html`       | R Markdown HTML report (optional view)                              |
 
 ---
 
-## 📦 Dataset
+## 📊 Dashboard Preview
 
-**Indian Pharmaceutical Products**  
-Comprehensive dataset of Indian pharmaceutical products with prices & compositions.  
-
-🔗 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/rishgeeky/indian-pharmaceutical-products)
-
-> **Note:** The dataset is too large to upload directly to this repository. Please download it manually from the above Kaggle link.
+![Dashboard](pharma_product_dashboard.png)
 
 ---
 
-## How to Reproduce
+## 📈 Dataset
 
-1. Open `pharma_analysis.R` or `pharma_analysis.Rmd` in RStudio.
-2. Run the script to clean data and generate visualizations.
+- **Dataset Name**: Indian Pharmaceutical Products  
+- **Source**: [Kaggle – Indian Pharmaceutical Products](https://www.kaggle.com/datasets/rishgeeky/indian-pharmaceutical-products)  
+- **Note**: Due to file size limits, the dataset is not uploaded to this repo.
+
+---
+
+## 📌 Key Charts in the Dashboard
+
+- Top 10 Most Expensive Products  
+- Top 5 Manufacturers  
+- Top Therapeutic Classes  
+- Price Trend for Allegra Products  
+- Top Discontinued vs Active Products by Manufacturer  
+- Pie chart of Product Status  
+- Heatmap of Products by Therapeutic Class and Manufacturer
+
+---
+
+## 🔍 Insights & Business Implications
+
+### **Key Insights**
+
+1. **Top 10 Most Expensive Products**  
+   → These represent high-value items with potential pricing risks.  
+   **Business Insight**: Review if the pricing strategy supports value and demand.
+
+2. **Top 5 Manufacturers**  
+   → Market is concentrated among a few players.  
+   **Business Insight**: Smaller companies can find niche markets to compete.
+
+3. **Top Therapeutic Classes**  
+   → High frequency in areas like antibiotics and allergy treatment.  
+   **Business Insight**: Focus marketing or R&D efforts on these segments.
+
+4. **Price Trend for Allegra Products**  
+   → Stable pricing observed over the product line.  
+   **Business Insight**: Indicates consistent demand or strong brand presence.
+
+5. **Discontinued vs Active Products**  
+   → High discontinuation rates in some brands.  
+   **Business Insight**: Companies can analyze causes for discontinuation to refine product strategy.
+
+---
+
+## 🛠️ How to Reproduce
+
+1. Open `pharma_analysis.R` or `pharma_analysis.Rmd` in RStudio.  
+2. Run the script to clean data and generate visualizations.  
 3. Review the Excel dashboard in `pharma_dashboard.xlsx`.
 
 ---
 
-## 📈 Key Insights
+## ✅ Tools Used
 
-- Top 10 most expensive pharmaceutical products
-- Price trends for Allegra variants
-- Most common therapeutic classes
-- Top manufacturers
-- Comparison of active vs discontinued products
+- **R**: Data cleaning and visualization (`dplyr`, `ggplot2`, `readr`)  
+- **RMarkdown**: Report generation  
+- **Excel**: PivotTables, PivotCharts, Slicers, KPIs, and Dashboard creation
 
 ---
 
-## 🛠 Tools & Technologies
+## 📌 Future Work
 
-- **R** (Tidyverse, ggplot2, knitr)
-- **RStudio**
-- **Excel** (Pivot Tables, Charts, Slicers)
-- **GitHub**
-
----
-
-## Excel Dashboard Preview
-
-![Excel Dashboard](pharma_product_dashboard.png)
+- Add statistical tests or regression analysis  
+- Deploy an interactive Shiny app version of the dashboard  
+- Include a finalized PDF report (coming soon)
 
 ---
 
-## 📊 Dashboard Features
+## 📬 Contact
 
-- Interactive KPI cards
-- Visual comparisons of product categories and manufacturers
-- Price trends and therapeutic class distribution
-- Slicers to filter by therapeutic class and manufacturer
-
----
-
-## 👩‍💻 Author
-
-**Apeksha Khochare**  
-📧 apekshakhochare143@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/apeksha-khochare-0341a1215)
-
----
-
-## ✅ How to Use
-
-1. Download the dataset from the [Kaggle link](https://www.kaggle.com/datasets/sahildutta/indian-pharmaceutical-products).
-2. Run `pharma_analysis.R` or open `pharma_report.Rmd` in RStudio for data analysis.
-3. Open `pharma_report.html` to view the R Markdown output.
-4. Open `indian_pharma_dashboard.xlsx` to explore the interactive Excel dashboard.
-
----
+**Author**: Apeksha  
+GitHub: [@apeksha1403](https://github.com/apeksha1403)  
